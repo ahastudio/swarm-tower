@@ -1,0 +1,39 @@
+#over {
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 16px;
+  background: rgba(30, 25, 20, 0.72);
+  color: #fff;
+  font: 800 28px var(--font-family);
+  word-break: keep-all;
+  text-align: center;
+}
+
+#over h1 {
+  margin: 0;
+  font: 900 84px var(--font-family);
+  color: #ff5a4d;
+  text-shadow: 0 5px 0 var(--outline-color);
+}
+
+#survival-result {
+  font: 900 56px var(--font-family);
+  color: var(--accent-color);
+  text-shadow: 0 4px 0 var(--outline-color);
+}
+
+#over button {
+  padding: 12px 36px;
+  border: 4px solid var(--outline-color);
+  border-radius: 999px;
+  background: var(--accent-color);
+  color: var(--outline-color);
+  font: 800 28px var(--font-family);
+  cursor: pointer;
+}

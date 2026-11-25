@@ -1,0 +1,112 @@
+/* 타이틀 화면: 모바일 세로부터 데스크탑 가로까지 같은 규칙으로 늘어난다 */
+#title {
+  --gutter: clamp(12px, 3vw, 32px);
+  position: fixed;
+  inset: 0;
+  z-index: 11;
+  box-sizing: border-box;
+  height: 100dvh;
+  overflow: auto;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: max(var(--gutter), env(safe-area-inset-top))
+    max(var(--gutter), env(safe-area-inset-right))
+    max(var(--gutter), env(safe-area-inset-bottom))
+    max(var(--gutter), env(safe-area-inset-left));
+  background: var(--sea-color);
+  color: var(--outline-color);
+  font-family: var(--font-family);
+  word-break: keep-all;
+}
+
+#title nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#title a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  min-width: 48px;
+  min-height: 48px;
+  padding: 8px clamp(12px, 2vw, 20px);
+  border: 3px solid var(--outline-color);
+  border-radius: 999px;
+  background: var(--accent-color);
+  color: var(--outline-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#title svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: currentColor;
+}
+
+#title section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(24px, 6dvh, 48px);
+  padding: 24px 0;
+  text-align: center;
+}
+
+#title h1 {
+  margin: 0;
+  max-width: 100%;
+  font-size: clamp(38px, 9vw, 100px);
+  font-weight: 900;
+  line-height: 1.1;
+  color: #fff;
+  text-shadow: 0 4px 0 var(--outline-color);
+}
+
+#start {
+  box-sizing: border-box;
+  width: min(280px, 100%);
+  min-height: 64px;
+  padding: 12px 32px;
+  border: 4px solid var(--outline-color);
+  border-radius: 999px;
+  background: var(--accent-color);
+  color: var(--outline-color);
+  font: 800 clamp(24px, 4vw, 32px) var(--font-family);
+  word-break: keep-all;
+  cursor: pointer;
+  animation: start-pulse 1.8s ease-in-out infinite;
+}
+
+#title a:focus-visible,
+#start:focus-visible {
+  outline: 3px solid var(--outline-color);
+  outline-offset: 4px;
+}
+
+@keyframes start-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #start {
+    animation: none;
+  }
+}
+
+#title[hidden] {
+  display: none;
+}

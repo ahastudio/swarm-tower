@@ -1,0 +1,336 @@
+{
+ "base": {
+  "file": "base.png",
+  "textureSize": 29,
+  "columns": 5,
+  "layerCount": 20,
+  "lift": 0.4908749846741558,
+  "width": 64.0909090909091,
+  "height": 64.0909090909091
+ },
+ "houses": [
+  {
+   "file": "house-0.png",
+   "textureSize": 41,
+   "columns": 13,
+   "layerCount": 147,
+   "lift": 0.6649659863945577,
+   "width": 125.41121274232864,
+   "height": 125.41121274232864
+  },
+  {
+   "file": "house-1.png",
+   "textureSize": 44,
+   "columns": 13,
+   "layerCount": 147,
+   "lift": 0.6649659863945577,
+   "width": 134.87576633691788,
+   "height": 134.87576633691788
+  },
+  {
+   "file": "house-2.png",
+   "textureSize": 54,
+   "columns": 13,
+   "layerCount": 147,
+   "lift": 0.6649659863945577,
+   "width": 167.5000011920929,
+   "height": 167.5000011920929
+  },
+  {
+   "file": "house-3.png",
+   "textureSize": 60,
+   "columns": 13,
+   "layerCount": 147,
+   "lift": 0.6649659863945577,
+   "width": 185.51776707172394,
+   "height": 185.51776707172394
+  },
+  {
+   "file": "house-4.png",
+   "textureSize": 70,
+   "columns": 13,
+   "layerCount": 147,
+   "lift": 0.6649659863945577,
+   "width": 217.5000011920929,
+   "height": 217.5000011920929
+  }
+ ],
+ "fence": {
+  "file": "fence.png",
+  "textureSize": 25,
+  "columns": 6,
+  "layerCount": 27,
+  "lift": 0.4785185125139025,
+  "width": 55.00000000000001,
+  "height": 55.00000000000001
+ },
+ "gate": {
+  "file": "gate.png",
+  "textureSize": 25,
+  "columns": 6,
+  "layerCount": 27,
+  "lift": 0.4785185125139025,
+  "width": 55.00000000000001,
+  "height": 55.00000000000001
+ },
+ "cannon": {
+  "file": "cannon.png",
+  "textureSize": 33,
+  "columns": 8,
+  "layerCount": 63,
+  "lift": 0.406559191392286,
+  "width": 62.69230769230769,
+  "height": 62.69230769230769
+ },
+ "props": {
+  "tree": {
+   "file": "prop-tree.png",
+   "textureSize": 29,
+   "columns": 16,
+   "layerCount": 236,
+   "lift": 0.4830122012948788,
+   "width": 64.0909090909091,
+   "height": 64.0909090909091
+  },
+  "pine": {
+   "file": "prop-pine.png",
+   "textureSize": 29,
+   "columns": 14,
+   "layerCount": 171,
+   "lift": 0.48229252721767474,
+   "width": 64.0909090909091,
+   "height": 64.0909090909091
+  },
+  "bush": {
+   "file": "prop-bush.png",
+   "textureSize": 26,
+   "columns": 8,
+   "layerCount": 57,
+   "lift": 0.4839151389712035,
+   "width": 59.09090909090908,
+   "height": 59.09090909090908
+  },
+  "mush": {
+   "file": "prop-mush.png",
+   "textureSize": 20,
+   "columns": 8,
+   "layerCount": 57,
+   "lift": 0.4848743856748194,
+   "width": 44.09090909090909,
+   "height": 44.09090909090909
+  },
+  "redf": {
+   "file": "prop-redf.png",
+   "textureSize": 16,
+   "columns": 9,
+   "layerCount": 71,
+   "lift": 0.4835107929636716,
+   "width": 34.09090909090909,
+   "height": 34.09090909090909
+  },
+  "yelf": {
+   "file": "prop-yelf.png",
+   "textureSize": 16,
+   "columns": 7,
+   "layerCount": 47,
+   "lift": 0.48069713340828213,
+   "width": 34.09090909090909,
+   "height": 34.09090909090909
+  },
+  "rock": {
+   "file": "prop-rock.png",
+   "textureSize": 31,
+   "columns": 6,
+   "layerCount": 27,
+   "lift": 0.483216708059864,
+   "width": 69.0909090909091,
+   "height": 69.0909090909091
+  },
+  "stone": {
+   "file": "prop-stone.png",
+   "textureSize": 20,
+   "columns": 8,
+   "layerCount": 62,
+   "lift": 0.48611425754978077,
+   "width": 44.09090909090909,
+   "height": 44.09090909090909
+  }
+ },
+ "enemies": [
+  {
+   "file": "enemy-0.png",
+   "textureSize": 27,
+   "columns": 9,
+   "layerCount": 67,
+   "lift": 0.4407791779295859,
+   "width": 55.833333333333336,
+   "height": 55.833333333333336
+  },
+  {
+   "file": "enemy-1.png",
+   "textureSize": 27,
+   "columns": 10,
+   "layerCount": 96,
+   "lift": 0.4410974429906923,
+   "width": 55.833333333333336,
+   "height": 55.833333333333336
+  },
+  {
+   "file": "enemy-2.png",
+   "textureSize": 27,
+   "columns": 12,
+   "layerCount": 131,
+   "lift": 0.4440969678671894,
+   "width": 55.833333333333336,
+   "height": 55.833333333333336
+  },
+  {
+   "file": "enemy-3.png",
+   "textureSize": 27,
+   "columns": 10,
+   "layerCount": 88,
+   "lift": 0.44110725612010576,
+   "width": 55.83333333333332,
+   "height": 55.83333333333332
+  },
+  {
+   "file": "enemy-4.png",
+   "textureSize": 27,
+   "columns": 10,
+   "layerCount": 93,
+   "lift": 0.4441904481309373,
+   "width": 55.833333333333336,
+   "height": 55.833333333333336
+  },
+  {
+   "file": "enemy-5.png",
+   "textureSize": 27,
+   "columns": 12,
+   "layerCount": 131,
+   "lift": 0.4443304961030179,
+   "width": 55.833333333333336,
+   "height": 55.833333333333336
+  },
+  {
+   "file": "enemy-6.png",
+   "textureSize": 27,
+   "columns": 10,
+   "layerCount": 91,
+   "lift": 0.44512808224178846,
+   "width": 55.833333333333336,
+   "height": 55.833333333333336
+  }
+ ],
+ "manIdle": {
+  "file": "man-idle.png",
+  "textureSize": 42,
+  "columns": 12,
+  "layerCount": 135,
+  "lift": 0.40925925925925927,
+  "width": 80,
+  "height": 80
+ },
+ "manWalk": [
+  {
+   "file": "man-walk-0.png",
+   "textureSize": 42,
+   "columns": 12,
+   "layerCount": 135,
+   "lift": 0.40925925925925927,
+   "width": 80,
+   "height": 80
+  },
+  {
+   "file": "man-walk-1.png",
+   "textureSize": 42,
+   "columns": 12,
+   "layerCount": 135,
+   "lift": 0.40925925925925927,
+   "width": 80,
+   "height": 80
+  },
+  {
+   "file": "man-walk-2.png",
+   "textureSize": 42,
+   "columns": 12,
+   "layerCount": 135,
+   "lift": 0.40925925925925927,
+   "width": 80,
+   "height": 80
+  },
+  {
+   "file": "man-walk-3.png",
+   "textureSize": 42,
+   "columns": 12,
+   "layerCount": 135,
+   "lift": 0.40925925925925927,
+   "width": 80,
+   "height": 80
+  },
+  {
+   "file": "man-walk-4.png",
+   "textureSize": 42,
+   "columns": 12,
+   "layerCount": 135,
+   "lift": 0.40925925925925927,
+   "width": 80,
+   "height": 80
+  },
+  {
+   "file": "man-walk-5.png",
+   "textureSize": 42,
+   "columns": 12,
+   "layerCount": 135,
+   "lift": 0.40925925925925927,
+   "width": 80,
+   "height": 80
+  }
+ ],
+ "manThrow": [
+  {
+   "file": "man-throw-0.png",
+   "textureSize": 42,
+   "columns": 12,
+   "layerCount": 135,
+   "lift": 0.40925925925925927,
+   "width": 80,
+   "height": 80
+  },
+  {
+   "file": "man-throw-1.png",
+   "textureSize": 42,
+   "columns": 12,
+   "layerCount": 135,
+   "lift": 0.40925925925925927,
+   "width": 80,
+   "height": 80
+  },
+  {
+   "file": "man-throw-2.png",
+   "textureSize": 42,
+   "columns": 12,
+   "layerCount": 135,
+   "lift": 0.40925925925925927,
+   "width": 80,
+   "height": 80
+  },
+  {
+   "file": "man-throw-3.png",
+   "textureSize": 42,
+   "columns": 12,
+   "layerCount": 135,
+   "lift": 0.40925925925925927,
+   "width": 80,
+   "height": 80
+  },
+  {
+   "file": "man-throw-4.png",
+   "textureSize": 42,
+   "columns": 12,
+   "layerCount": 135,
+   "lift": 0.40925925925925927,
+   "width": 80,
+   "height": 80
+  }
+ ]
+}
