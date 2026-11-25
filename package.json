@@ -1,0 +1,38 @@
+{
+  "name": "swarm-tower",
+  "private": true,
+  "license": "MIT",
+  "author": "Ashal aka JOKER",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahastudio/swarm-tower.git"
+  },
+  "homepage": "https://github.com/ahastudio/swarm-tower",
+  "bugs": "https://github.com/ahastudio/swarm-tower/issues",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 52589 --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check --error-on-warnings . && eslint src",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "guard": "node scripts/checks/check_typescript_version.cjs && node scripts/checks/check_coverage_thresholds.cjs",
+    "score": "node scripts/checks/quality_score.cjs src --min 95",
+    "check": "pnpm run guard && pnpm typecheck && pnpm lint && pnpm test:coverage && pnpm run score"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.9",
+    "@typescript-eslint/parser": "^8.74.0",
+    "@vitest/coverage-v8": "^5.1.1",
+    "eslint": "^10.15.0",
+    "jsdom": "^31.0.1",
+    "typescript": "^5.6.3",
+    "vite": "6.4.6",
+    "vitest": "^5.1.1"
+  },
+  "packageManager": "pnpm@10.24.0",
+  "engines": {
+    "node": ">=22"
+  }
+}
