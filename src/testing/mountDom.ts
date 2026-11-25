@@ -1,0 +1,17 @@
+export function mountGameDom() {
+  document.body.innerHTML = `
+<main id="title">
+<nav aria-label="커뮤니티">
+<a href="https://discord.gg/Y6kNcJvCwU" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4.5a19 19 0 0 0-4.8-1.5l-.6 1.2a18 18 0 0 0-5.2 0L8.8 3A19 19 0 0 0 4 4.5C1 9 0 13.4.5 17.8a19 19 0 0 0 5.9 3l1.2-2a12 12 0 0 1-1.9-.9l.5-.4a14 14 0 0 0 11.6 0l.5.4a12 12 0 0 1-1.9.9l1.2 2a19 19 0 0 0 5.9-3C24 12.7 22.6 8.3 20 4.5ZM8 15.5c-1.1 0-2-1-2-2.3S6.9 11 8 11s2 1 2 2.2-.9 2.3-2 2.3Zm8 0c-1.1 0-2-1-2-2.3s.9-2.2 2-2.2 2 1 2 2.2-.9 2.3-2 2.3Z"/></svg>디스코드</a>
+<a href="https://github.com/ahastudio/swarm-tower" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .8a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.2.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.6-1.3-1.6-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.7.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.1v3.2c0 .4.2.7.8.6A11.5 11.5 0 0 0 12 .8Z"/></svg>GitHub</a>
+</nav>
+<section><h1>Swarm Tower</h1><button id="start" type="button">시작</button></section>
+</main>
+<div id="loading" hidden><div>Swarm Tower</div><div id="loading-bar"><i></i></div><small id="loading-message">불러오는 중</small></div>
+<div id="over"><h1>게임 오버</h1><div id="survival-result"></div><div id="game-over-message"></div><button id="again">다시 시작</button></div>
+<div id="survival" class="pill"></div>
+<div id="wave" class="pill"></div>
+<div id="developer-information" class="pill" hidden>-- fps</div>
+<div id="coins" class="pill"><i></i><span id="coin-count">0</span></div>
+  `;
+}
